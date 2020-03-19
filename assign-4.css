@@ -1,0 +1,72 @@
+body{
+    background : url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: -150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form{
+    width: 450px;
+    opacity: 0.6;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    margin-left: 5%;
+    right: 5;
+    top: 20;
+    bottom: 20;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    }
+    .form p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    }
+    .form input{
+    width: 100%;
+    margin-bottom: 15px;
+    }
+    .form input[type="text"], input[type="email"], input[type="tel"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 22px;
+    color: #fff;
+    font-size: 15px;
+    }
+    .form input[type="radio"]{
+        display: inline;
+        clear: none;
+        height: 20px;
+        width: auto;
+        font-size: 20px;
+    }
+    .form input[type="submit"], input[type="reset"]{
+    width: 45%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background:rgb(169, 160, 153);
+    color: #fff;
+    font-size: 16px;
+    display: inline;
+    border-radius: 20px;
+    }
+    .form select, input[type="text"], input[type="date"]{
+    width: 100%;
+    background: transparent;
+    color: gray;
+    height: 22px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    }
+    .form fieldset{
+        border-radius: 20px;
+    }
