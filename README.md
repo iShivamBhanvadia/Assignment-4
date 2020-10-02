@@ -1,3 +1,3 @@
 # Assignment-4
 
-This is aasignment given by CHARUSAT University.
+This is an assignment given by the CHARUSAT University.
